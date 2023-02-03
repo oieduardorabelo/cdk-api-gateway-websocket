@@ -32,5 +32,5 @@ export const handler = async (event: APIGatewayProxyEvent) => {
     };
   }
 
-  return { statusCode: 200, body: "Connected." };
+  return { statusCode: 200, body: "You are now connected." };
 };

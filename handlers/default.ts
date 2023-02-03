@@ -4,6 +4,6 @@ import { APIGatewayProxyEvent } from "aws-lambda";
 export const handler = async (event: APIGatewayProxyEvent) => {
   return {
     statusCode: 200,
-    body: `Message should be JSON. Received: ${JSON.stringify(event, null, 2)}`,
+    body: `Message should be JSON. Received: ${JSON.stringify(event.body)}`,
   };
 };
