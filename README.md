@@ -6,6 +6,10 @@ CDK example of:
 - Using `$connect` and `$disconnect` routes to manage connected users
 - Using `AWS.ApiGatewayManagementApi` to send message from backend to connected clients
 
+Final architecture:
+
+![](./docs/cdk-api-gateway-websocket.png)
+
 Extra resources:
 
 - [About WebSocket APIs in API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-api-overview.html)
